@@ -1,6 +1,5 @@
 import { useState } from 'react';
 import { GiHamburgerMenu } from 'react-icons/gi';
-import Link from 'next/link';
 
 const HamburgerMenu = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -15,11 +14,8 @@ const HamburgerMenu = () => {
         <GiHamburgerMenu className="mr-6 h-10 w-10 text-slate-100" />
       </div>
       {isOpen && (
-        <div className="menu-modal absolute right-12 top-full ml-8 rounded-md bg-slate-600 px-12 py-8 text-xl font-bold tracking-widest text-slate-100 shadow ring ring-2 ring-slate-50">
+        <div className="menu-modal absolute right-12 top-full ml-8 rounded-md bg-slate-600 px-12 py-8 text-xl font-bold tracking-widest text-slate-100 shadow ring-2 ring-slate-50">
           <ul className="menu-items">
-            {/* <li className="py-2">
-              <Link href="/homepage">Home</Link>
-            </li> */}
             <li className="py-2">
               <a href="#about">About</a>
             </li>

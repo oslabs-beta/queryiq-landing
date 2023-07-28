@@ -1,45 +1,9 @@
 import Image from 'next/image';
-import React, { useState, useRef, useEffect } from 'react';
+import React from 'react';
 
 const Header: React.FC = () => {
-//   const [sticky, setSticky] = useState({ isSticky: false, offset: 0 });
-//   const headerRef = useRef(null);
-
-
-//  // handle scroll event
-//  const handleScroll = (elTopOffset, elHeight) => {
-//   if (window.scrollY > (elTopOffset + elHeight)) {
-//     setSticky({ isSticky: true, offset: elHeight });
-//   } else {
-//     setSticky({ isSticky: false, offset: 0 });
-//   }
-// };
-
-//   // add/remove scroll event listener
-//   useEffect(() => {
-//     var header = headerRef.current.getBoundingClientRect();
-//     const handleScrollEvent = () => {
-//       handleScroll(header.top, header.height)
-//     }
-
-//     window.addEventListener('scroll', handleScrollEvent);
-
-//     return () => {
-//       window.removeEventListener('scroll', handleScrollEvent);
-//     };
-//   }, []);
-
-const headerStyle = {
-  position: 'sticky',
-  top: 0,
-  bottom:0,
-  zIndex: 999, // Optional: To ensure the header appears above other content
-  background: 'linear-gradient(to bottom, #1F1F1F, transparent)', // Replace 'blue' with your desired background color
-  padding: '8px',
-};
-
   return (
-    <div style={headerStyle}>
+    <div className='sticky top-0 z-[999] p-2 bg-gradient-to-b from-[#1f1f1f] to-transparent'>
     <div
       className="flex items-center justify-center md:flex-row md:justify-between px-8 py-4"
     >
@@ -82,7 +46,6 @@ const headerStyle = {
       </div>
     </div>
   </div>
-
   );
 };
 

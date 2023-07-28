@@ -5,7 +5,7 @@ const Footer: React.FC = () => {
   return (
     <div id="footer" className="mt-12">
       <div className="flex flex-row items-center justify-between md:flex-row md:justify-between bg-gray-300 text-slate-700 px-8 py-4">
-        <p>All Rights Reserved</p>
+        <p>All Rights Reserved.</p>
         <p className="text-center">© Query IQ 2023 | MIT License</p>
         <div className="flex items-center ">
           <a
@@ -58,7 +58,7 @@ const Footer: React.FC = () => {
           }
 
           .image-container:hover {
-            filter: contrast(115%); /* Remove the grayscale filter on hover */
+            filter: contrast(115%);
           }
 
           .image-container {

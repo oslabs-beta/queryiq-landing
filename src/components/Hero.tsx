@@ -5,7 +5,7 @@ import useWindowDimensions from '../hooks/getWindowDimensions'
 const Hero = () => {
 
 // const { height, width } = useWindowDimensions();
-  const width = '1000'
+  const width: number = 1000
   return (
     <>
       <section id="hero" className="max-h-full w-screen min-w-full max-w-full bg-transparent">
@@ -36,7 +36,7 @@ const Hero = () => {
                 alt='Query IQ Application Screenshot'
                 width={width}
                 height={0}
-                className='mt-16 filter drop-shadow-lg bg-gradient-to-bl from-purple-800 to-teal-400 p-1 rounded-2xl rounded-md'              />
+                className='mt-16 filter drop-shadow-lg bg-gradient-to-bl from-purple-800 to-teal-400 p-1 rounded-2xl'/>
           </div>
         </div>
         </div>
