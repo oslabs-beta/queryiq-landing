@@ -17,11 +17,11 @@ const Header: React.FC = () => {
             className='min-w-[32px]'
           />
         </div>
-        <h1 className="font-reem-kufi text-3xl sm:text-3xl md:text-4xl lg:text-6xl text-slate-100">Query IQ</h1>
+        <h1 className="font-reem-kufi font-bold text-xl sm:text-2xl md:text-4xl lg:text-6xl text-slate-100">Query IQ</h1>
       </div>
-      <div className="flex items-center text-slate-200 mr-4">
-        <ul className="menu-items flex space-x-4 lg:space-x-8 text-xl md:text-2xl lg:text-4xl">
-          <li className="py-2 hover:text-gray-700 transition-colors duration-200">
+      <div className="flex items-center text-slate-200 ">
+        <ul className="menu-items flex space-x-4 lg:space-x-8 text-l md:text-xl lg:text-4xl font-reem-kufi">
+          <li className="py-2 hover:text-gray-700 transition-colors duration-200 ">
             <a href="#about">About</a>
           </li>
           <li className="py-2 hover:text-gray-700 transition-colors duration-200">

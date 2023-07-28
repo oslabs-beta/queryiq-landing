@@ -13,22 +13,21 @@ const Hero = () => {
           <div className="flex items-center justify-center space-x-4">
             <div className="flex justify-center md:mx-0 md:mr-4 ">
               <div className='h-full w-full relative'>
-              <Image
-                src="https://user-images.githubusercontent.com/32769592/256317225-f3c7607f-e661-4d0a-96a1-83665e4918bc.png"
-                alt="Query IQ Logo"
-                width={width * 0.15}
-                height={0}
-                objectFit='contain'
-                className='filter drop-shadow'
-              />
+                <Image
+                  src="https://user-images.githubusercontent.com/32769592/256317225-f3c7607f-e661-4d0a-96a1-83665e4918bc.png"
+                  alt="Query IQ Logo"
+                  width={125}
+                  height={125}
+                  className='min-w-[32px] filter drop-shadow'
+                />
               </div>
             </div>
-            <h1 className='text-6xl sm:text-6xl md:text-8xl lg:text-9xl font-bold'>Query IQ</h1>
+            <h1 className='text-5xl sm:text-6xl md:text-8xl lg:text-9xl font-bold'>Query IQ</h1>
           </div>
 
         <div className='container mx-auto px-4 mt-8 text-slate-100 font-reem-kufi'>
           <div className='flex flex-col items-center justify-center font-reem-kufi'>
-              <h2 className='mt-8 italic text-3xl sm:text-3xl md:text-4xl lg:text-5xl '>
+              <h2 className='mt-8 italic text-2xl sm:text-2xl md:text-4xl lg:text-5xl '>
                 Your database will thank you!
               </h2>
               <Image

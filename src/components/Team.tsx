@@ -61,7 +61,7 @@ const Team = () => {
                 <h2 className="mt-2 text-center text-xl font-semibold text-white font-reem-kufi">
                   {member.name}
                 </h2>
-                <div className="mt-4 flex justify-evenly">
+                <div className="mt-4 flex justify-evenly font-reem-kufi">
                   <div className="flex items-center justify-center">
                     {' '}
 
@@ -96,7 +96,7 @@ const Team = () => {
                       rel="noopener noreferrer"
                       className="text-white-400 hover:text-red-400"
                     >
-                      GitHub
+                      Github
                     </a>
                   </div>
                 </div>
