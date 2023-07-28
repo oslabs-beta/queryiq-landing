@@ -27,6 +27,5 @@ const config = {
       },
     ],
    },
-   distDir: 'landingbuild',
 };
 export default config;
