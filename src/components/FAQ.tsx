@@ -12,7 +12,7 @@ const FAQ = () => {
             <p className="mt-2 text-center text-xl text-slate-50 mb-12">
               Below you&apos;ll find the answers to some frequently asked questions
             </p>
-            <div className="flex justify-center items-center flex-col lg:flex-row">
+            <div className="flex justify-center items-center flex-col lg:flex-row w-screen sm:w-fit">
 
             <div className="lg:w-2/4 w-full px-2 xl:px-16">
 

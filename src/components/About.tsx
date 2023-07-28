@@ -13,9 +13,10 @@ const About: React.FC = () => {
                 <div>
                   <Image
                     src="https://user-images.githubusercontent.com/108748353/256357255-34175d9e-c633-4b22-8f57-2569b9b4475d.png"
-                    alt="database health "
+                    alt="database health"
                     width={225}
-                    height={225}
+                    height={0}
+                    className='w-[125px] sm:w-[125px] md:w-[175px] lg:w-[225px] min-w-[32px] max-w-[225px] filter drop-shadow'
                   />
                 </div>
                 <h2 className="text-xl font-bold text-slate-50 mt-4 text-center font-reem-kufi">Database Health Metrics</h2>
@@ -31,7 +32,8 @@ const About: React.FC = () => {
                     src="https://user-images.githubusercontent.com/103613430/256677692-a395862f-9cf6-4427-99f6-c99fe0a36b1e.png"
                     alt="query log"
                     width={225}
-                    height={225}
+                    height={0}
+                    className='w-[125px] pt-2 sm:w-[125px] md:w-[175px] lg:w-[225px] min-w-[32px] max-w-[225px] filter drop-shadow'
                   />
                 </div>
                 <h2 className="text-xl font-bold text-slate-50 mt-4 text-center font-reem-kufi">Customizable Query Log</h2>
@@ -47,7 +49,8 @@ const About: React.FC = () => {
                     src="https://user-images.githubusercontent.com/108748353/256357302-ea8b14b7-08f0-4ba5-b6ec-9233a1c69860.png"
                     alt="query performance image"
                     width={225}
-                    height={225}
+                    height={0}
+                    className='w-[125px] sm:w-[125px] md:w-[175px] lg:w-[225px] min-w-[32px] max-w-[225px] filter drop-shadow'
                   />
                 </div>
                 <h2 className="text-xl font-bold text-slate-50 mt-4 text-center font-reem-kufi">Query Performance</h2>
