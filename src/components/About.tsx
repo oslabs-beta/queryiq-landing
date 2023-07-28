@@ -6,9 +6,9 @@ const About: React.FC = () => {
     <>
       <section id="about" className="flex items-center justify-center bg-transparent mt-16 mb-36">
         <div className="container mx-auto">
-          <h2 className="mt-4 text-3xl font-bold text-slate-50 text-center font-reem-kufi">Query IQ is a powerful developer tool that provides holistic insights on your SQL database.</h2>
+          <h2 className="mt-4 mx-8 md:mx-0 text-3xl font-bold text-slate-50 leading-snug text-center font-reem-kufi">Query IQ is a powerful developer tool that provides holistic insights on your SQL database.</h2>
           <div className="mt-24 flex flex-wrap gap-14 justify-center bg-transparent">
-            <div className='group inline-block overflow-hidden rounded-2xl bg-gradient-to-tr from-purple-800 to-teal-400 p-2 md:p-10 pb-4 text-white shadow-[5px_6px_20px_4px] shadow-indigo-700/70 duration-500 transition hover:scale-105 hover:from-purple-700 hover:to-teal-300 w-7/12 md:w-[325px] md:h-[450px] mx-8'>
+            <div className='group inline-block overflow-hidden rounded-2xl bg-gradient-to-tr from-purple-800 to-teal-400 p-2 md:p-10 pb-4 text-white shadow-[5px_6px_20px_4px] shadow-indigo-700/70 duration-700 transition hover:scale-105 hover:from-purple-700 hover:to-teal-300 w-7/12 md:w-[325px] md:h-[450px] mx-8'>
               <div className="flex flex-col items-center h-full justify-center transition-transform transform-gpu group-hover:scale-105">
                 <div>
                   <Image
@@ -25,7 +25,7 @@ const About: React.FC = () => {
                 </p>
               </div>
             </div>
-            <div className="group inline-block overflow-hidden rounded-2xl bg-gradient-to-tr from-purple-800 to-teal-400 p-2 md:p-10 pb-4 text-white shadow-[5px_6px_20px_4px] shadow-indigo-700/70 duration-500 transition hover:scale-105 hover:from-purple-700 hover:to-teal-300 w-7/12 md:w-[325px] md:h-[450px] mx-8">
+            <div className="group inline-block overflow-hidden rounded-2xl bg-gradient-to-tr from-purple-800 to-teal-400 p-2 md:p-10 pb-4 text-white shadow-[5px_6px_20px_4px] shadow-indigo-700/70 duration-700 transition hover:scale-105 hover:from-purple-700 hover:to-teal-300 w-7/12 md:w-[325px] md:h-[450px] mx-8">
               <div className="flex flex-col items-center h-full justify-center transition-transform transform-gpu group-hover:scale-105">
                 <div>
                   <Image
@@ -42,7 +42,7 @@ const About: React.FC = () => {
                 </p>
               </div>
             </div>
-            <div className="group inline-block overflow-hidden rounded-2xl bg-gradient-to-tr from-purple-800 to-teal-400 p-2 md:p-10 pb-4 text-white shadow-[5px_6px_20px_4px] shadow-indigo-700/70 duration-500 transition hover:scale-105 hover:from-purple-700 hover:to-teal-300 w-7/12 md:w-[325px] md:h-[450px] mx-8">
+            <div className="group inline-block overflow-hidden rounded-2xl bg-gradient-to-tr from-purple-800 to-teal-400 p-2 md:p-10 pb-4 text-white shadow-[5px_6px_20px_4px] shadow-indigo-700/70 duration-700 transition hover:scale-105 hover:from-purple-700 hover:to-teal-300 w-7/12 md:w-[325px] md:h-[450px] mx-8">
               <div className="flex flex-col items-center h-full justify-center transition-transform transform-gpu group-hover:scale-105">
                 <div>
                   <Image

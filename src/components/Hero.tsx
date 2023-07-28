@@ -16,9 +16,9 @@ const Hero = () => {
                 <Image
                   src="https://user-images.githubusercontent.com/32769592/256317225-f3c7607f-e661-4d0a-96a1-83665e4918bc.png"
                   alt="Query IQ Logo"
-                  width={125}
-                  height={125}
-                  className='min-w-[32px] filter drop-shadow'
+                  width={132}
+                  height={0}
+                  className='w-[75px] sm:w-[96px] md:w-[112px] lg:w-[132px] min-w-[75px] max-w-[132px] filter drop-shadow'
                 />
               </div>
             </div>
